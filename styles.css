@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.tagline {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+  text-align: center;
+  font-weight: 400;
+  margin: 20%;
+  margin-bottom: 12px;
+}
+.result{
+    color:wheat;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 50;
+}
+
+#clickme {
+  background: linear-gradient(90deg, #dab36b 0%, #8bd4e5 30%, #98c568 85%);
+  background-size: 200% 100%;
+  border: 2px solid rgb(254, 251, 251);
+  border-radius: 25px;
+  color: white;
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+  padding:12px 24px;
+  margin:auto auto;
+}
+
+#clickme:hover{
+  border: solid 3px transparent;
+  background: linear-gradient(90deg, #d4b133 0%, #64e3ff 30%, #9192ff 85%);
+  border: 2px solid rgb(254, 251, 251);
+
+}
+
